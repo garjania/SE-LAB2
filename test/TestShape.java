@@ -25,6 +25,6 @@ public class TestShape {
     public void testSetHeight() {
         Rectangle rect = new Rectangle(6.4, 2.9);
         rect.setHeight(5.1);
-        assertEquals(rect.getHeight(), 32.64, 0.001);
+        assertEquals(rect.computeArea(), 32.64, 0.001);
     }
 }
