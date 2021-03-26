@@ -17,4 +17,8 @@ public class Rectangle {
     public double getHeight() {
         return height;
     }
+
+    public double getWidth() {
+        return width;
+    }
 }
