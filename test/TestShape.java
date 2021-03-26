@@ -43,8 +43,14 @@ public class TestShape {
 
     @Test
     public void testSquareSetWidth() {
-        Square sqr = new Squrare(4.5);
+        Square sqr = new Square(4.5);
         sqr.setWidth(6);
         assertEquals(sqr.computeArea(), 36, 0.001);
+    }
+
+    @Test
+    public void testSquareGetWidth() {
+        Square sqr = new Square(4.5);
+        assertEquals(sqr.getWidth(), 4.5, 0.001);
     }
 }
