@@ -27,4 +27,11 @@ public class TestShape {
         rect.setHeight(5.1);
         assertEquals(rect.computeArea(), 32.64, 0.001);
     }
+
+    @Test
+    public void testSetWidth() {
+        Rectangle rect = new Rectangle(6.4, 2.9);
+        rect.setWidth(7);
+        assertEquals(rect.computeArea(), 20.3, 0.001);
+    }
 }
