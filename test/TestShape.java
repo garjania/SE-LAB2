@@ -14,4 +14,10 @@ public class TestShape {
         Rectangle rect = new Rectangle(6.4, 2.9);
         assertEquals(rect.getHeight(), 2.9, 0.001);
     }
+
+    @Test
+    public void testGetWidth() {
+        Rectangle rect = new Rectangle(6.4, 2.9);
+        assertEquals(rect.getWidth(), 6.4, 0.001);
+    }
 }
