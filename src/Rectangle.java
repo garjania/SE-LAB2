@@ -26,4 +26,9 @@ public class Rectangle {
         if(height > 0)
             this.height = height;
     }
+
+    public void setWidth(double width) {
+        if(width > 0)
+            this.width = width;
+    }
 }
