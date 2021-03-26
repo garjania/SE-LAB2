@@ -34,4 +34,17 @@ public class TestShape {
         rect.setWidth(7);
         assertEquals(rect.computeArea(), 20.3, 0.001);
     }
+
+    @Test
+    public void testSquareArea() {
+        Square sqr = new Square(5);
+        assertEquals(sqr.computeArea(), 25, 0.001);
+    }
+
+    @Test
+    public void testSquareSetWidth() {
+        Square sqr = new Squrare(4.5);
+        sqr.setWidth(6);
+        assertEquals(sqr.computeArea(), 36, 0.001);
+    }
 }
